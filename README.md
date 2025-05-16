@@ -2,7 +2,15 @@
 
 32-bit x86 Assembly (NASM) * Linux
 
+# Purpose
+
 # How to execute
+This program will loop through what's in the input buffer, and call byte_to_ascii for each byte
+Then byte to ascii will convert the high and low nibbles using the lookup table
+The results will go to the output buffer
+finally, the sytem will output the output buffer and call for the exit of the program.
+
+# How to run
 
 Once installed go to terminal and type in
 nasm -f elf32 translate2Ascii.asm -o translate2Ascii.o
