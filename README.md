@@ -2,8 +2,6 @@
 
 32-bit x86 Assembly (NASM) * Linux
 
-# Purpose
-
 # How to execute
 This program will loop through what's in the input buffer, and call byte_to_ascii for each byte
 Then byte to ascii will convert the high and low nibbles using the lookup table
