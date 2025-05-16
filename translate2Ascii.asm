@@ -1,5 +1,6 @@
 
 section .data
+; input data
 inputBuf    db  0x83,0x6A,0x88,0xDE,0x9A,0xC3,0x54,0x9A
 inputLen    equ $-inputBuf ; should be 8                                                                                                                                                                                                                                      
 hexTable    db  '0123456789ABCDEF'
